@@ -1,0 +1,151 @@
+h1 { 
+    color: orangered; 
+    margin-bottom: -5px; 
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+} 
+
+p { 
+    margin-bottom: -10px; 
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #1f0707;
+} 
+
+.ui { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px;
+} 
+
+.row { 
+    display: flex; 
+} 
+
+.cell { 
+    border: none; 
+    width: 80px; 
+    height: 80px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 24px; 
+    text-align: center; 
+    cursor: pointer; 
+    background-color: #44e6e6; 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} 
+
+.cell:hover { 
+    background-color: #49238f; 
+} 
+
+.cell:active { 
+    outline: none; 
+    background-color: #491493; 
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.2);
+} 
+
+/* 3*3 Grid */
+#b1 { 
+    border-bottom: 2px solid gray; 
+    border-right: 2px solid gray; 
+} 
+
+#b2 { 
+    border-bottom: 2px solid gray; 
+    border-right: 2px solid gray; 
+    border-left: 2px solid gray; 
+} 
+
+#b3 { 
+    border-bottom: 2px solid gray; 
+    border-left: 2px solid gray; 
+} 
+
+#b4 { 
+    border-top: 2px solid gray; 
+    border-bottom: 2px solid gray; 
+    border-right: 2px solid gray; 
+} 
+
+#b5 { 
+    border: 2px solid gray; 
+} 
+
+#b6 { 
+    border-top: 2px solid gray; 
+    border-bottom: 2px solid gray; 
+    border-left: 2px solid gray; 
+} 
+
+#b7 { 
+    border-top: 2px solid gray; 
+    border-right: 2px solid gray; 
+} 
+
+#b8 { 
+    border-top: 2px solid gray; 
+    border-right: 2px solid gray; 
+    border-left: 2px solid gray; 
+} 
+
+#b9 { 
+    border-top: 2px solid gray; 
+    border-left: 2px solid gray; 
+} 
+
+/* Reset Button */
+#but { 
+    box-sizing: border-box; 
+    width: 100px; 
+    height: 40px; 
+    border: 2px solid dodgerblue; 
+    margin-left: auto; 
+    border-radius: 8px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background: linear-gradient(to right, #fff, #e6f7ff); 
+    color: dodgerblue; 
+    font-size: 18px; 
+    cursor: pointer; 
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} 
+
+#but:hover { 
+    background: linear-gradient(to right, #e6f7ff, #b3e0ff); 
+} 
+
+#but:active { 
+    background: dodgerblue; 
+    color: white; 
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.2);
+} 
+
+/* Player turn space */
+#print { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: dodgerblue; 
+    font-size: 20px; 
+    margin: 10px 0;
+} 
+
+/* Main Container */
+#main { 
+    text-align: center; 
+    padding: 20px;
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+} 
+
+/* Game Instruction Text */
+#ins { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: dodgerblue; 
+    font-size: 18px; 
+    margin: 10px 0;
+} 
